@@ -1,0 +1,33 @@
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.startBtn {
+  width: 200px;
+  height: 35px;
+  cursor: pointer;
+  margin-top: 25px;
+  outline: none;
+  color: #fff;
+  font-size: 20px;
+  background-color: red;
+  border: 1px solid #fff;
+}
+
+.startBtn:hover {
+  background-color: #fff;
+  color: #222;
+  transition: all 0.3s ease;
+}
+
+.winner {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 30px;
+}

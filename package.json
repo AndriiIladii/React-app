@@ -19,7 +19,8 @@
   "homepage": "https://github.com/AndriiIladii/React-app#readme",
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "yarn": "^1.22.21"
   },
   "devDependencies": {
     "@babel/core": "^7.23.9",

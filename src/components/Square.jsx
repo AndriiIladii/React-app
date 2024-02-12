@@ -2,8 +2,9 @@ import React from "react";
 import styles from "./Square.module.css";
 
 const Square = (props) => {
+  const squareClasses = `${styles.square} ${props.customBorderClass}`;
   return (
-    <button className={styles.square} onClick={props.onClick}>
+    <button className={squareClasses} onClick={props.onClick}>
       {props.value}
     </button>
   );

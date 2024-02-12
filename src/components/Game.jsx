@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Board from "./Board";
 import styles from "./Game.module.css";
 
@@ -36,7 +36,7 @@ const Game = () => {
         className={styles.startBtn}
         onClick={() => setSquares(Array(9).fill(null))}
       >
-        Reset
+        Play Again
       </button>
     );
   };
@@ -64,6 +64,7 @@ const Game = () => {
     }
     return null;
   }
+
   return (
     <div className={styles.wrapper}>
       <p className={styles.winner}>{status}</p>

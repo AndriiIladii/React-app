@@ -1,13 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import List from "./components/List";
-import styles from "./App.module.css";
+import * as styles from "./App.module.css";
 
 const App = () => {
+  const [list, setList] = useState([0, 1, 2, 3]);
+
   return (
     <List text="text">
-      <div className={styles.item}>1</div>
-      <div className={styles.item}>2</div>
-      <div className={styles.item}>3</div>
+      {list.map((item, index) => {
+        return (
+          <div key={item} className={styles.test}>
+            {item}
+          </div>
+        );
+      })}
     </List>
   );
 };

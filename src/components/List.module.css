@@ -1,3 +1,6 @@
-.wrapper {
-  background-color: blueviolet;
+.test {
+  background-color: rgb(110, 110, 223);
+  padding: 20px;
+  color: #fff;
+  font-size: 40px;
 }

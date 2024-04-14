@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "./List.module.css";
+import * as styles from "./List.module.css";
 
 const List = (props) => {
   return (
-    <div className="{styles.wrapper}">
+    <div className={styles.test}>
       {props.text}
       <div>{props.children}</div>
     </div>
